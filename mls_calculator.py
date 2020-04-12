@@ -9,7 +9,6 @@ class mls_calcuator(object):
           self.recivecount = recivecount
           self.waybillNumber = waybillNumber
 
-
     # 基本参数
     def parameter_input(self):
         rate  = int(input('税率'))/100
